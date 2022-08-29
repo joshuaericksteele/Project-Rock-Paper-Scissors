@@ -1,14 +1,10 @@
 let playersScore = 0
 let computersScore = 0
   
-
-
-
 function getComputerChoice() {
     const choices = ["rock", "paper", "scissors"];
     return choices[Math.floor(Math.random() * choices.length)];
 }
-
 
 function playRound(playerSelection, computersSelection) {
     
