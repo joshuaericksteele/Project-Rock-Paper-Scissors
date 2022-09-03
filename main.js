@@ -32,12 +32,12 @@ function playRound(playerSelection, computersSelection) {
 }
 
 function game() {
-    for (let i = 0; i < 5; i++) {
+    // for (let i = 0; i < 5; i++) {
     const playerSelection = prompt("Chose rock paper or scissors", "Rock, Paper or Scissors").toLowerCase();
     const computersSelection = getComputerChoice();
     console.log(playRound(playerSelection, computersSelection));
     console.log(playerSelection, computersSelection);
-    }
+    // }
     if (playersScore > computersScore) {
         return "You beat the computer! You are a Star";
     } else if (playersScore < computersScore) {
@@ -47,6 +47,6 @@ function game() {
     }
 }
 
-    console.log(game());
+    game();
 
 // console.log(game());
