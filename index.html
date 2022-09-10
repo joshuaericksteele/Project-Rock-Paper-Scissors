@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <div class="gameArea">
-        <div class="gameText" id="computerText">Computer: </div>
-        <div class="gameText" id="playerText">Player: </div>
-        <div class="gameText" id="resultText">Result: </div>
-            
-                <button id="rock" class="choiceBtns">ROCK</button>
-                <button id="paper" class="choiceBtns">PAPER</button>
-                <button id="scissors" class="choiceBtns">SCISSORS</button>
-            
-        <div class="win">Win: </div>
-        <div class="loss">Loss: </div>
-        <div class="draw">Draw: </div>
+        <h1 class="gameText" id="roundText">Round: </h1>
+            <h2 class="gameText" id="computerText">Computer: </h2>
+            <h2 class="gameText" id="playerText">Player: </h2>
+            <h2 class="gameText" id="resultText">Result: </h2>
+                
+            <button id="rock" class="choiceBtns">ROCK</button>
+            <button id="paper" class="choiceBtns">PAPER</button>
+            <button id="scissors" class="choiceBtns">SCISSORS</button>
+                
+            <div class="win" id="winText">Win: </div>
+            <div class="loss" id="lossText">Loss: </div>
+            <div class="draw" id="drawText">Draw: </div>
+
+            <div class="gameEnd" id="gameText"></div>
     </div>
 </body>
 <script src="/main.js"></script>
